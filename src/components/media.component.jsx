@@ -5,7 +5,7 @@ import videoData from '../store/video-data.json';
 
 function Media() {
   return (
-    <div className='flex gap-5'>
+    <div className='flex gap-5 mt-3'>
       <MediaPlayer />
 
       <div className="side-content flex-2">

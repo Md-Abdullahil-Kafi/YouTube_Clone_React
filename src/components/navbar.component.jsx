@@ -8,7 +8,7 @@ import { MdKeyboardVoice } from 'react-icons/md'
 
 function Navbar() {
   return (
-    <div className='flex justify-between gap-3 lg:gap-16 mt-2'>
+    <div className='flex justify-between gap-3 lg:gap-16 mt-2 mb-4'>
         <div className="menu_logo flex items-center gap-6">
             <div className="menu text-white text-2xl lg:block hidden"> <GiHamburgerMenu/> </div>
             <div className='flex items-center gap-2'> <FaYoutube className='text-red-600 text-4xl'/> <span className='text-2xl font-bold text-white'>YouTube <sup className='font-light text-sm'>BD</sup></span> </div>
